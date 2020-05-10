@@ -1,0 +1,1122 @@
+  /*——————————————
+Basics
+———————————————*/
+  
+  * {
+  	box-sizing: border-box;
+  }
+  
+  html,
+  body {
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  a {
+  	text-decoration: none;
+  	text-align: right;
+  	color: #EE4E9C;
+  }
+  
+  h1,
+  h2 {
+  	font-family: FilsonSoft-Bold;
+  	font-weight: normal;
+  	font-style: normal;
+  }
+  
+  h3 {
+  	font-family: FilsonSoftRegular;
+  	font-weight: normal;
+  	font-style: normal;
+  }
+  
+  p,
+  span,
+  table,
+  ul,
+  li {
+  	font-family: ProximaSoft-Regular;
+  	font-weight: normal;
+  	font-style: normal;
+  }
+  
+  .pink {
+  	color: #EE4E9C;
+  	text-align: center;
+  	font-size: 1.5em;
+  }
+  
+  p {
+  	margin-top: 0.5em;
+  }
+  
+  h1 {
+  	text-align: center;
+  }
+  
+  h2 {
+  	text-align: left;
+  	color: #fff;
+  	font-size: 1.6em;
+  	background: #EE4E9C;
+  	padding: 0.5em;
+  }
+  
+  h3 {
+  	text-align: center;
+  	color: #4DB2E5;
+  	font-size: 1.8em;
+  	-webkit-margin-before: 1em;
+  	-webkit-margin-after: 0.5em;
+  	-webkit-margin-start: 0px;
+  	-webkit-margin-end: 0px;
+  	font-weight: bold;
+  }
+  
+  .thepoint {
+  	color: #4DB2E5;
+  	font-size: 1.5em;
+  	text-align: left;
+  }
+  
+  .thefinalpoint {
+  	color: #4DB2E5;
+  	font-size: 2em;
+  	text-align: left;
+  }
+  
+  .verdict h3 {
+  	margin-top: 2em;
+  	font-size: 1.5em;
+  }
+  
+  .verdict1 h3 {
+  	margin-top: 2em;
+  	font-size: 2em;
+  }
+  
+  .verdict img {
+  	width: 25%;
+  }
+  
+  .big {
+  	font-size: 3.0em;
+  	font-weight: 500;
+  	color: #EE4E9C;
+  	line-height: 1em;
+  }
+  
+  .med {
+  	font-size: 1.6em;
+  	color: #EE4E9C;
+  }
+  
+  span {
+  	color: #EE4E9C;
+  }
+  
+  .row {
+  	display: flex;
+  	justify-content: space-around;
+  	flex-direction: row;
+  }
+  
+  .col {
+  	flex: 1;
+  }
+  
+  .seventy {
+  	width: 70%;
+  }
+  
+  .single {
+  	flex: 1;
+  	flex-direction: column;
+  	align-content: center;
+  	justify-content: center;
+  	width: 50%;
+  }
+  
+  .first img {
+  	width: 30%;
+  }
+  
+  .two img {
+  	justify-content: center;
+  	align-items: center;
+  	width: 128px;
+  	margin-right: 0.7em;
+  }
+  
+  .rows {
+  	display: flex;
+  	flex-direction: column;
+  	align-content: space-around;
+  }
+  
+  .two {
+  	display: flex;
+  	flex-direction: row;
+  }
+  
+  .one {
+  	width: 200px;
+  	flex-direction: column;
+  	align-content: center;
+  	justify-content: center;
+  	flex-grow: 1;
+  }
+  
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section7,
+  #section8 {
+  	padding: 2em;
+  }
+  
+  #scrollBox {
+  	position: absolute;
+  	top: 0px;
+  	left: -5px;
+  	height: 5000px;
+  	width: 7px;
+  	background-color: white;
+  	z-index: 1000;
+  }
+  
+  body {
+  	background: #e7f2f8;
+  }
+  
+  h1 {
+  	margin: 1.5em 0;
+  	padding: 0;
+  	color: white;
+  	font-size: 6em;
+  }
+  
+  #mainContent {
+  	width: 100%;
+  	position: relative;
+  	-webkit-transition: background-color 500ms;
+  	-moz-transition: background-color 700ms;
+  	-o-transition: background-color 700ms;
+  	transition: background-color 700ms;
+  }
+  
+  .left {
+  	width: 47%;
+  	position: relative;
+  	height: 100vh;
+  	left: 0;
+  	top: 0;
+  }
+  
+  .box {
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	position: relative;
+  }
+  
+  .right {
+  	width: 53%;
+  	height: 400vh;
+  	/*   margin-top: 1em;*/
+  	padding: 1em;
+  }
+  
+  .ones {
+  	width: 190px;
+  	flex-direction: column;
+  	align-content: center;
+  	justify-content: center;
+  	text-align: center;
+  }
+  
+  .colorOne {
+  	background-color: #def1f9;
+  	;
+  }
+  
+  .colorTwo {
+  	background-color: #f8ebee;
+  }
+  
+  .colorThree {
+  	background-color: #def1f9;
+  }
+  
+  .colorFour {
+  	background-color: #f8ebee;
+  }
+  
+  .colorFive {
+  	background-color: #def1f9;
+  }
+  
+  .colorSix {
+  	background-color: #f8ebee;
+  }
+  /*——————————————
+Buttons
+———————————————*/
+  
+  buttons {
+  	text-align: center;
+  }
+  
+  .btn {
+  	border-radius: 5px;
+  	padding: 0.8em;
+  	border: none;
+  	font-size: 14px;
+  	text-decoration: none;
+  	margin: 20px;
+  	color: #fff;
+  	width: 70%;
+  	display: inline-block;
+  	text-align: center;
+  }
+  
+  .btn:active {
+  	transform: translate(0px, 5px);
+  	-webkit-transform: translate(0px, 5px);
+  	box-shadow: 0px 1px 0px 0px;
+  }
+  
+  .butts {
+  	background-color: #4DB2E5;
+  	box-shadow: 0px 5px 0px 0px #3C93D5;
+  }
+  
+  .butts:hover {
+  	background-color: #3C93D5;
+  }
+  
+  .herd {
+  	fill: #4DB2E5;
+  	padding: 10px;
+  }
+  /*——————————————
+Home Page
+———————————————*/
+  
+  .statistic {
+  	background: url(../images/infinite-04.png);
+  	background-color: #4DB2E5;
+  	background-size: cover;
+  	-webkit-animation: 100s scroll infinite linear;
+  	-moz-animation: 100s scroll infinite linear;
+  	-o-animation: 100s scroll infinite linear;
+  	-ms-animation: 100s scroll infinite linear;
+  	animation: 100s scroll infinite linear;
+  	height: 100vh;
+  	text-align: center;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+  
+  .title {
+  	padding: 1em;
+  }
+  
+  @-webkit-keyframes scroll {
+  	100% {
+  		background-position: 0px -3000px;
+  	}
+  }
+  
+  @-moz-keyframes scroll {
+  	100% {
+  		background-position: 0px -3000px;
+  	}
+  }
+  
+  @-o-keyframes scroll {
+  	100% {
+  		background-position: 0px -3000px;
+  	}
+  }
+  
+  @-ms-keyframes scroll {
+  	100% {
+  		background-position: 0px -3000px;
+  	}
+  }
+  
+  @keyframes scroll {
+  	100% {
+  		background-position: 0px -3000px;
+  	}
+  }
+  /*——————————————
+Impact: Section2
+———————————————*/
+  
+  .numba {
+  	margin-bottom: 1.5em;
+  }
+  
+  .ill {
+  	font-size: 1.5em;
+  }
+  
+  #arm {
+  	position: absolute;
+  	top: 210px;
+  	z-index: 1001;
+  	left: -300px;
+  }
+  
+  .woman {
+  	position: absolute;
+  	left: 90px;
+  	z-index: 1000;
+  	width: 550px;
+  	top: 80px;
+  }
+  
+  #measles,
+  #antibody,
+  #macrophage,
+  #ant2,
+  #ant3 {
+  	position: absolute;
+  }
+  
+  .saved {
+  	color: #4DB2E5;
+  	font-size: 2em;
+  	text-align: left;
+  	margin-bottom: 1em;
+  }
+  
+  #measles {
+  	z-index: 300;
+  	left: 5px;
+  }
+  
+  #antibody {
+  	z-index: 400;
+  	left: 200px;
+  	top: 115px;
+  }
+  
+  #ant2 {
+  	z-index: 500;
+  	left: 90px;
+  	top: 50px;
+  }
+  
+  #ant3 {
+  	z-index: 500;
+  	left: 80px;
+  	top: 200px;
+  }
+  
+  #macrophage {
+  	z-index: 600;
+  	left: 300px;
+  	top: 110px;
+  }
+  /*
+  #part1 {
+  	
+	background-image: url(../images/office.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: auto 0;
+	
+
+  	background-image: url(../images/doctorbackground.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin: auto 0;
+  }
+*/
+  /*——————————————
+AntiVax: Section3
+———————————————*/
+  
+  .last {
+  	margin-bottom: 1.5em;
+  }
+  
+  .false {
+  	padding: 1em;
+  }
+  
+  .facts {
+  	font-size: 18px;
+  	width: 83%;
+  }
+  
+  .fiction img {
+  	width: 17%;
+  	margin-right: 0.5em;
+  }
+  
+  .myth {
+  	color: #EE4E9C;
+  	font-size: 25px;
+  	text-align: left;
+  }
+  
+  .angry {
+  	position: absolute;
+  	left: 108px;
+  	top: 30px;
+  	z-index: 100;
+  	width: 300px;
+  }
+  
+  .antisafe {
+  	position: relative;
+  }
+  
+  .message {
+  	position: absolute;
+  	left: 320px;
+  	z-index: 200;
+  	width: 300px;
+  	top: 30px;
+  }
+  
+  .wrapper {
+  	padding: 100px;
+  	width: 400px;
+  	display: block;
+  	text-align: center;
+  	position: absolute;
+  	z-index: 9999;
+  	left: 270px;
+  	top: -20px;
+  }
+  
+  .roles {
+  	font-size: 1em;
+  	height: 60px;
+  	vertical-align: middle;
+  	overflow: hidden;
+  	color: #4DB2E5;
+  }
+  
+  .roles div {
+  	height: 60px;
+  	transition: margin-top 1s ease-in-out;
+  }
+  
+  .spriteBox {
+  	position: absolute;
+  	overflow: hidden;
+  	top: 220px;
+  	left: 205px;
+  	margin: auto;
+  	z-index: 1000;
+  	height: 150px;
+  	width: 87px;
+  }
+  
+  .sprite {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  }
+  
+  .daughter {
+  	position: absolute;
+  	top: 200px;
+  	z-index: 999;
+  	left: -499px;
+  	width: 220px;
+  	height: auto;
+  }
+  /*——————————————
+Resurgence: Section4
+———————————————*/
+  
+  .spriteBoy {
+  	position: absolute;
+  	overflow: hidden;
+  	top: 353px;
+  	left: 537px;
+  	margin: auto;
+  	z-index: 1000;
+  	height: 150px;
+  	width: 80px;
+  }
+  /*
+#sb2 {
+	left: 530px;
+	height: 130px;
+	width: 95px;
+	top: 340px;
+}
+*/
+  
+  #mom {
+  	width: 200px;
+  	height: auto;
+  	top: 180px;
+  }
+  
+  .blue {
+  	position: absolute;
+  	top: 300px;
+  	width: 175px;
+  	height: auto;
+  	left: 290px;
+  	z-index: 400;
+  }
+  
+  .blue:hover {
+  	transition: background-color 2500ms;
+  	fill: #EE4E9C;
+  }
+  
+  .boy {
+  	position: absolute;
+  	top: 230px;
+  	width: 194px;
+  	height: auto;
+  	left: 465px;
+  }
+  
+  .castle {
+  	position: absolute;
+  	top: -100px;
+  	width: 200px;
+  	height: auto;
+  	left: 290px;
+  	z-index: 100;
+  }
+  /*——————————————
+Infection: Section5
+———————————————*/
+  
+  .sick {
+  	position: absolute;
+  	top: 130px;
+  	width: 150px;
+  	height: auto;
+  	left: 20px;
+  }
+  /*
+.girlarm {
+	position: absolute;
+	top: 36.5%;
+	width: 170px;
+	height: auto;
+	left: 32%;
+}
+*/
+  
+  .cancer {
+  	position: absolute;
+  	top: 130px;
+  	z-index: 99;
+  	left: -499px;
+  	width: 200px;
+  	height: auto;
+  }
+  
+  .grandma {
+  	position: absolute;
+  	top: 150px;
+  	z-index: 99;
+  	left: -499px;
+  	width: 150px;
+  	height: auto;
+  }
+  
+  .mother {
+  	position: absolute;
+  	top: 85px;
+  	z-index: 99;
+  	left: -499px;
+  	width: 200px;
+  	height: auto;
+  }
+  
+  .percents {
+  	width: 130px;
+  	flex-direction: column;
+  	align-content: center;
+  	justify-content: center;
+  	text-align: center;
+  }
+  
+  .herd path {
+  	transition: fill 500ms;
+  }
+  /*——————————————
+Death: Section6
+———————————————*/
+  
+  .cry {
+  	position: absolute;
+  	top: 85px;
+  	z-index: 99;
+  	left: 300px;
+  	width: 250px;
+  	height: auto;
+  }
+  
+  .grave {
+  	position: absolute;
+  	top: 355px;
+  	z-index: 99;
+  	left: -499px;
+  	width: 200px;
+  	height: auto;
+  }
+  
+  .hurt {
+  	width: 155px;
+  	height: 155px;
+  }
+  
+  .revenge {
+  	padding: 1em;
+  }
+  /*——————————————
+Point: Section7
+———————————————*/
+  
+  .girls {
+  	position: absolute;
+  	left: 203px;
+  	z-index: 1000;
+  	width: 290px;
+  	top: 60px;
+  }
+  
+  #arm2 {
+  	position: absolute;
+  	top: 180px;
+  	z-index: 2060;
+  	left: -300px;
+  }
+  
+  .point {
+  	width: 20%;
+  	justify-content: center;
+  	align-items: center;
+  }
+  /*——————————————
+Sources: Section8
+———————————————*/
+  
+  .thanks {
+  	position: absolute;
+  	left: 60px;
+  	z-index: 1000;
+  	width: 290px;
+  	top: 60px;
+  }
+  
+  .secret {
+  	width: 180px;
+  	position: absolute;
+  	left: 380px;
+  	z-index: 9999;
+  	top: 64px;
+  	text-align: center;
+  	font-size: 1.5em;
+  }
+  /*
+.text {
+  align-items: center;
+  display: flex;
+  font-size: 3em;
+  height: 200vh;
+  justify-content: center;
+  padding-left: calc(40vw + 2em);
+  padding-right: 2em;
+}
+*/
+  /*——————————————
+Navigation
+———————————————*/
+  
+  #scrollNav {
+  	list-style: none;
+  	text-decoration: none;
+  	height: 200px;
+  	width: 25px;
+  	position: fixed;
+  	right: 5px;
+  	top: 30%;
+  	z-index: 700;
+  }
+  
+  #scrollNav li {
+  	position: relative;
+  	height: 15px;
+  	width: 15px;
+  	border-radius: 50%;
+  	margin-bottom: 10px;
+  	background-color: #fff;
+  	cursor: pointer;
+  }
+  
+  .actPos {
+  	border-style: solid;
+  	border-color: #fff;
+  	border-width: 2px;
+  }
+  /*——————————————
+Map
+———————————————*/
+  
+  #modal {
+  	height: 500px;
+  	/*   background: #e9f2f7;*/
+  	position: relative;
+  	margin: 0 auto;
+  }
+  
+  #modal .title {
+  	background: #1173b2;
+  	height: 75px;
+  	color: #ffffff;
+  	font: bold 12px/50px "Open Sans", Arial, sans-serif;
+  	text-align: center;
+  }
+  
+  #modal .title a.close-button:hover {
+  	opacity: 1;
+  }
+  
+  #modal p.intro {
+  	text-align: center;
+  	font: 16px "Open Sans", Arial, sans-serif;
+  }
+  
+  #modal #map {
+  	width: 480px;
+  	height: 340px;
+  	position: absolute;
+  	left: 75px;
+  	top: 200px;
+  }
+  
+  #modal .map-pop {
+  	background: #0b72b7;
+  	border-radius: 2px;
+  	color: #fff;
+  	position: absolute;
+  	top: 277px;
+  	left: 243px;
+  	width: 93px;
+  	height: 54px;
+  	text-align: center;
+  	font: 13px/15px "Open Sans", Arial, sans-serif;
+  	padding: 7px 10px 0 10px;
+  }
+  
+  #modal .map-pop:after {
+  	top: 100%;
+  	border: solid transparent;
+  	content: " ";
+  	height: 0;
+  	width: 0;
+  	position: absolute;
+  	pointer-events: none;
+  }
+  
+  #modal .map-pop:after {
+  	border-color: rgba(11, 114, 183, 0);
+  	border-top-color: #0b72b7;
+  	border-width: 10px;
+  	left: 50%;
+  	margin-left: -10px;
+  }
+  
+  #modal .average,
+  #modal .savings {
+  	width: 237px;
+  	height: 120px;
+  	position: absolute;
+  	right: 200px;
+  	text-align: center;
+  	font: bold 14px/16px "Open Sans", Arial, sans-serif;
+  	text-transform: uppercase;
+  }
+  
+  #modal .average span.price,
+  #modal .savings span.price {
+  	font-size: 52px;
+  	line-height: 60px;
+  	display: block;
+  }
+  
+  #modal .average span.price {
+  	color: #EE4E9C;
+  }
+  
+  #modal .savings span.price {
+  	color: #12c02b;
+  }
+  
+  #modal .savings {
+  	top: 356px;
+  }
+  
+  #modal .source {
+  	color: #333;
+  	font: 10px "Open Sans", Arial, sans-serif;
+  	position: absolute;
+  	bottom: 10px;
+  	left: 95px;
+  }
+  
+  #modal .bottom {
+  	bottom: 10px;
+  	position: absolute;
+  	text-align: center;
+  	font: 16px "Open Sans", Arial, sans-serif;
+  }
+  
+  #modal .bottom p {
+  	padding: 0 60px;
+  }
+  
+  #modal .bottom .larger {
+  	font-size: 28px;
+  	padding: 0;
+  	margin: 0;
+  }
+  
+  #modal .bottom .larger span {
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	color: #1173b2;
+  }
+  /*——————————————
+Table
+———————————————*/
+  
+  table {
+  	width: 100%;
+  	padding: 1em;
+  	margin: 1em auto;
+  	box-sizing: border-box;
+  	padding: 1em;
+  }
+  
+  th {
+  	font-size: 1.2em;
+  	padding-bottom: 1em;
+  }
+  
+  td {
+  	font-weight: bold;
+  	border-bottom: 1px solid #fbfbfb;
+  	width: 20%;
+  	padding: .5em .25em;
+  	background-size: 0% 100%;
+  	background-repeat: no-repeat;
+  	-webkit-transition: all .75s ease-out;
+  	-moz-transition: all .75s ease-out;
+  	transition: all .75s ease-out;
+  }
+  
+  td:nth-child(2) {
+  	width: 40%;
+  	color: white;
+  	text-shadow: 1px 2px #222;
+  	text-align: right;
+  	background-image: -webkit-linear-gradient(to left, green, green);
+  	background-image: -moz-linear-gradient(to left, green, green);
+  	background-image: linear-gradient(to left, #4DB2E5, #4DB2E5);
+  	background-position: right top;
+  }
+  
+  td:nth-child(3) {
+  	width: 40%;
+  	color: white;
+  	text-shadow: 1px 2px #222;
+  	background-image: -webkit-linear-gradient(right, #EE4E9C, #EE4E9C);
+  	background-image: -moz-linear-gradient(right, #EE4E9C, #EE4E9C);
+  	background-image: linear-gradient(right, #EE4E9C, #EE4E9C);
+  	background-position: left top;
+  }
+  /*——————————————
+Scroll
+———————————————*/
+  
+  .scroll {
+  	margin-top: 2em;
+  }
+  
+  @-webkit-keyframes ani-mouse {
+  	0% {
+  		opacity: 1;
+  		top: 29%;
+  	}
+  	15% {
+  		opacity: 1;
+  		top: 50%;
+  	}
+  	50% {
+  		opacity: 0;
+  		top: 50%;
+  	}
+  	100% {
+  		opacity: 0;
+  		top: 29%;
+  	}
+  }
+  
+  @-moz-keyframes ani-mouse {
+  	0% {
+  		opacity: 1;
+  		top: 29%;
+  	}
+  	15% {
+  		opacity: 1;
+  		top: 50%;
+  	}
+  	50% {
+  		opacity: 0;
+  		top: 50%;
+  	}
+  	100% {
+  		opacity: 0;
+  		top: 29%;
+  	}
+  }
+  
+  @keyframes ani-mouse {
+  	0% {
+  		opacity: 1;
+  		top: 29%;
+  	}
+  	15% {
+  		opacity: 1;
+  		top: 50%;
+  	}
+  	50% {
+  		opacity: 0;
+  		top: 50%;
+  	}
+  	100% {
+  		opacity: 0;
+  		top: 29%;
+  	}
+  }
+  
+  .scroll-btn {
+  	display: block;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	text-align: center;
+  }
+  
+  .scroll-btn>* {
+  	display: inline-block;
+  	line-height: 18px;
+  	font-size: 13px;
+  	font-weight: normal;
+  	color: #7f8c8d;
+  	color: #ffffff;
+  	letter-spacing: 2px;
+  }
+  
+  .scroll-btn>*:hover,
+  .scroll-btn>*:focus,
+  .scroll-btn>*.active {
+  	color: #ffffff;
+  }
+  
+  .scroll-btn>*:hover,
+  .scroll-btn>*:focus,
+  .scroll-btn>*:active,
+  .scroll-btn>*.active {
+  	opacity: 0.8;
+  	filter: alpha(opacity=80);
+  }
+  
+  .scroll-btn .mouse {
+  	position: relative;
+  	display: block;
+  	width: 35px;
+  	height: 55px;
+  	margin: 0 auto 20px;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	border: 3px solid white;
+  	border-radius: 23px;
+  }
+  
+  .scroll-btn .mouse>* {
+  	position: absolute;
+  	display: block;
+  	top: 29%;
+  	left: 50%;
+  	width: 8px;
+  	height: 8px;
+  	margin: -4px 0 0 -4px;
+  	background: white;
+  	border-radius: 50%;
+  	-webkit-animation: ani-mouse 2.5s linear infinite;
+  	-moz-animation: ani-mouse 2.5s linear infinite;
+  	animation: ani-mouse 2.5s linear infinite;
+  }
+  /*——————————————
+donuts
+———————————————*/
+  
+  .graph-donut {
+  	position: relative;
+  	display: inline-block;
+  	width: 7em;
+  	height: 7em;
+  	margin-bottom: 3em;
+  	text-align: center;
+  }
+  
+  .graph-donut canvas {
+  	position: absolute;
+  	top: 0;
+  	left: 20px;
+  }
+  
+  .percent {
+  	display: inline-block;
+  	font-size: 21px;
+  	line-height: 90px;
+  	z-index: 2;
+  	margin-left: 0.9em;
+  }
+  
+  .percent:after {
+  	content: '%';
+  	font-size: .8em;
+  }
+  
+  .percent.no-percent:after {
+  	content: '';
+  }
+  
+  .amcharts-graph-g1 .amcharts-graph-fill {
+  	filter: url(#blur);
+  }
+  
+  .amcharts-graph-g2 .amcharts-graph-fill {
+  	filter: url(#blur);
+  }
+  
+  .amcharts-cursor-fill {
+  	filter: url(#shadow);
+  }
