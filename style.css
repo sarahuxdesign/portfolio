@@ -1,0 +1,495 @@
+/*--------page colors */
+
+.sunpass-project h6 {
+	color: #00c39d;
+}
+
+.torendi-project h6 {
+	color: #3f2d46;
+}
+
+.ohealth-project h6 {
+	color: #C5204F;
+
+
+}
+
+.aiga-project h6 {
+	color: #4db2e5;
+}
+
+.randt h6 {
+	color: #002B63;
+}
+
+.work h7 {
+	font-weight: 700;
+}
+
+
+/*-------------------------- navigation */
+
+.sunpass {
+	height: 370px;
+}
+
+
+.navbar-expand-sm .navbar-nav .nav-link {
+	padding-left: 2rem !important;
+}
+
+img {
+	max-width: 100%;
+}
+
+#project-menu .nav-link {
+	color: #ff0068 !important;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.main-menu {
+	padding-bottom: 4em;
+}
+
+.main-menu a {
+	color: rgba(0, 0, 0, .2);
+}
+
+
+a.nav-link.active,
+.fa-linkedin-in,
+.main-menu a:hover,
+.profile h6 {
+	color: #ff0068 !important;
+}
+
+
+
+.first {
+	margin-top: 6em;
+}
+
+/*-------------------------- homepage */
+
+.offset-left {
+	margin-left: 8%;
+}
+
+.hi {
+	color: #ffffff;
+	font-size: 2em;
+}
+
+h1 {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 3em !important;
+}
+
+h2 {
+	font-size: 2.5rem !important;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+p,
+li {
+	font-family: proxima-nova,
+	sans-serif;	font-weight: 400;
+	font-style: normal;
+}
+
+.project p {
+	margin-top: 2em;
+	font-size: 1.1em;
+}
+
+.intro {
+	padding: 4em 4em 2em;
+}
+
+/*-------------------------- landing */
+
+header h1 {
+	font-size: 6.1vw;
+}
+
+.case {
+	padding: 2em;
+}
+
+.project {
+	margin-bottom: 4rem;
+}
+
+.text {
+	color: rgba(35, 35, 35, 0.8);
+	font-size: 1.8em;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+}
+
+/* --------------------------buttons */
+
+.btn.btn-outline-primary {
+	color: #f83259;
+	background-color: transparent;
+	border-color: #f83259;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus,
+.btn.btn-outline-primary:active,
+.btn.btn-outline-primary.active {
+	color: #ffffff;
+	background-color: #f83259;
+	border-color: #f83259;
+}
+
+
+.btn.btn-outline-secondary {
+	color: #002B63;
+	background-color: transparent;
+	border-color: #002B63;
+}
+
+.btn.btn-outline-secondary:hover,
+.btn.btn-outline-secondary:focus,
+.btn.btn-outline-secondary:active,
+.btn.btn-outline-secondary.active {
+	color: #ffffff;
+	background-color: #002B63;
+	border-color: #002B63;
+}
+
+
+.btn.btn-outline-info {
+	color: #ee4e9c;
+	background-color: transparent;
+	border-color: #ee4e9c;
+}
+
+.btn.btn-outline-info:hover,
+.btn.btn-outline-info:focus,
+.btn.btn-outline-info:active,
+.btn.btn-outline-info.active {
+	color: #ffffff;
+	background-color: #ee4e9c;
+	border-color: #ee4e9c;
+}
+
+
+
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+	z-index: 10000;
+}
+
+.dflex a:hover {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.cta {
+	position: relative;
+	margin: auto;
+	top: 2em;
+	padding: 17px 20px;
+	transition: all 0.2s ease;
+	text-decoration: none;
+	color: black;
+}
+
+.cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: rgba(255, 171, 157, 0.5);
+	width: 56px;
+	height: 56px;
+	transition: all 0.3s ease;
+}
+
+.cta span {
+	position: relative;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 900;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #111;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+	width: 100%;
+	background: #ffab9d;
+}
+
+.cta:hover svg {
+	transform: translateX(0);
+}
+
+.cta:active {
+	transform: scale(0.96);
+}
+
+/* --------------------------footer */
+
+footer {
+	margin: 3em;
+}
+
+
+
+/* --------------------------project page */
+
+.problem,
+.researchresults,
+.usertesting {
+	background-color: #f6f6f6;
+}
+
+.oldsunpass {
+	margin-top: -10em;
+}
+
+
+blockquote {
+	font-size: 20px;
+	background: #f9f9f9;
+	border-left: 10px solid #00c39d;
+	margin: .5em 10px;
+	padding: 0 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+	padding: 10px 20px;
+	line-height: 1.4;
+}
+
+blockquote:before {
+	content: open-quote;
+	display: inline;
+	height: 0;
+	line-height: 0;
+	left: -10px;
+	position: relative;
+	top: 30px;
+	color: #00c39d;
+	font-size: 3em;
+}
+
+/* --------------------------zoom images */
+
+img[data-action="zoom"] {
+	cursor: pointer;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+}
+
+.zoom-img,
+.zoom-img-wrap {
+	position: relative;
+	z-index: 666;
+	-webkit-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+
+img.zoom-img {
+	cursor: pointer;
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
+}
+
+.zoom-overlay {
+	z-index: 420;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	filter: "alpha(opacity=0)";
+	opacity: 0;
+	-webkit-transition: opacity 300ms;
+	-o-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+
+.zoom-overlay-open .zoom-overlay {
+	filter: "alpha(opacity=100)";
+	opacity: 1;
+}
+
+.zoom-overlay-open,
+.zoom-overlay-transitioning {
+	cursor: default;
+}
+
+
+
+/* --------------------------user profiles */
+
+.nav.nav-justified > li > a:hover,
+.nav.nav-justified > li > a:focus {
+	background-color: transparent;
+}
+
+.nav.nav-justified > li > a.active > .quote {
+	opacity: 1;
+}
+
+.nav.nav-justified > li > a > img {
+	box-shadow: 0 0 0 2px #C5204F;
+}
+
+.nav.nav-justified > li > a > img {
+	max-width: 40%;
+	opacity: .3;
+	-webkit-transform: scale(.8, .8);
+	transform: scale(.8, .8);
+	-webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav.nav-justified > li > a.active > img,
+.nav.nav-justified > li:hover > a > img,
+.nav.nav-justified > li:focus > a > img {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+	-webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.tab-pane .tab-inner {
+	padding: 30px 0 20px;
+}
+
+
+/* --------------------------torrendi */
+
+.user img,
+.comp1 img,
+.comp2 img,
+.target img,
+.ohealth-prototypes img {
+	box-shadow: 0px 0px 20px 0px rgba(176, 176, 176, 1)
+}
+
+.oldphone {
+	margin-top: -11em;
+}
+
+
+
+
+.about p {
+	line-height: 2em;
+}
+
+
+.Rounded {
+	border-radius: 50px;
+	background-color: #acf;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.portalresults img,
+.portalresults h5 {
+	text-align: center;
+
+}
+
+
+
+
+
+/*-------------------------- media quierres */
+
+@media only screen and (min-width: 600px) {
+	.project {
+		margin-bottom: 8rem;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+
+
+
+	.oldphone {
+		margin-top: -12em;
+	}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 989px) {
+	.p-intro {
+		margin-top: 12em;
+	}
+
+	.p-intro1 {
+		margin-top: 6em;
+	}
+}
+
+
+@media only screen and (max-width: 705px) {
+	#project-menu {
+		display: none;
+	}
+	.main-menu {
+		padding-bottom: 0;
+	}
+	.two-em {
+		padding: 2em 2em 3.7em !important;
+	}
+
+	.padimg div,
+	.moreproject div {
+		margin-bottom: 3em;
+
+	}
+
+
+	.aigasvg img {
+		padding-top: 2em;
+
+	}
+
+	.oldsunpass {
+		margin-top: -3.5em;
+	}
+
+}
