@@ -3,7 +3,6 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
-
 /*--------page colors */
 
 .sunpass-project h6 {
@@ -473,9 +472,7 @@ img.zoom-img {
 
 
 @media only screen and (max-width: 705px) {
-	#project-menu {
-		display: none;
-	}
+
 	.main-menu {
 		padding-bottom: 0;
 	}
@@ -499,4 +496,10 @@ img.zoom-img {
 		margin-top: -3.5em;
 	}
 
+}
+
+@media only screen and (max-width: 966px) {
+	#project-menu {
+		display: none;
+	}
 }
