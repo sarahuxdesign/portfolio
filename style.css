@@ -3,6 +3,7 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
+
 /*--------page colors */
 
 .sunpass-project h6 {
@@ -17,6 +18,10 @@ body {
 	color: #C5204F;
 
 
+}
+
+.connectwise-project h6 {
+	color: #026CCF;
 }
 
 .aiga-project h6 {
