@@ -16,8 +16,10 @@ body {
 
 .ohealth-project h6 {
 	color: #C5204F;
+}
 
-
+.vp-project h6 {
+	color: #246BF7;
 }
 
 .connectwise-project h6 {
@@ -196,6 +198,22 @@ header h1 {
 }
 
 
+.btn.btn-outline-tertiary {
+	color: #246BF7;
+	background-color: transparent;
+	border-color: #246BF7;
+}
+
+.btn.btn-outline-tertiary:hover,
+.btn.btn-outline-tertiary:focus,
+.btn.btn-outline-tertiary:active,
+.btn.btn-outline-tertiary.active {
+	color: #ffffff;
+	background-color: #246BF7;
+	border-color: #246BF7;
+}
+
+
 
 .back-to-top {
 	position: fixed;
@@ -289,6 +307,9 @@ footer {
 	margin-top: -10em;
 }
 
+.vpsite {
+	margin-top: -5em;
+}
 
 blockquote {
 	font-size: 20px;
